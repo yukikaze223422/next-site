@@ -1,11 +1,10 @@
+import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import useSWR from "swr";
 
 import Header from "./components/header";
 import Content from "./components/content";
-import Styles from "../styles/Home.module.css";
-import { Component } from "react";
 
 export default function Home() {
   let title = "ともすた";
